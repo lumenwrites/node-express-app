@@ -26,7 +26,7 @@ app.get('/', (req, res)=>{
     /* Req contains all the request info. Headers, body info, etc. */
     res.render('index.hbs', {
 	pageTitle: 'Index Page',
-	welcomeMessage: 'Welcome to my site!'
+	welcomeMessage: 'Hello heroku!'
     }); 
 
     /* Send json */
